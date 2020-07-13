@@ -1,0 +1,8 @@
+3c3
+< import { View, Animated } from 'react-native';
+---
+> import { View, Animated, Text } from 'react-native';
+13c13
+<     style: Animated.Text.propTypes.style,
+---
+>     style: Text.propTypes.style,
